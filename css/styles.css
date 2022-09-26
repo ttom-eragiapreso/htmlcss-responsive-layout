@@ -1,0 +1,111 @@
+/* RESET AND GENERAL */
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.container {
+  width: 480px;
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+
+img {
+  max-width: 100%;
+}
+/* MOBILE FIRST */
+
+/* HEADER AND NAVBAR */
+
+header {
+  height: 70px;
+  background-color: #0084fd;
+}
+
+header .container {
+  height: 100%;
+}
+
+.menu {
+  list-style: none;
+  display: none;
+}
+
+.menu li {
+  padding-right: 10px;
+}
+
+.menu li a {
+  text-decoration: none;
+}
+
+nav {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hamburger-menu {
+  color: white;
+  font-size: 1.5rem;
+}
+
+/* FEATURES SECTION */
+
+
+.col {
+  background-color: #b5ddff;
+}
+
+.features h2, .features i {
+  color: #0084fd;
+}
+
+/* PLANNING SECTION */
+
+.planning, .planning .col {
+  background-color: #9792e4;
+}
+
+
+/* TESTIMONIALS SECTION */
+
+.testimonials .col {
+  background-color: #9792e4;
+}
+
+
+
+/* BENEFITS SECTION */
+
+.benefits {
+  background-color: #9792e4;
+}
+
+.benefits .col {
+  background-color: white;
+}
+
+/* ABOUT US */
+
+.about-us .col{
+  background-color: white;
+}
+
+/* GET STARTED */
+
+.get-started, .get-started .col {
+  background-color: #9792e4;
+}
+
+/* FOOTER  */
+
+footer {
+  background-color: #333333;
+}
