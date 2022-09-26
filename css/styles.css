@@ -494,5 +494,111 @@ footer p:last-of-type a{
 
   /* ABOUT US */
 
-  
+  .about-us {
+    padding: 100px 0;
+  }
+
+  .about-us .row-1 {
+    display: flex;
+  }
+
+  .about-us .col {
+    width: calc(100% / 3);
+  }
+
+  .about-us .row-1 .col:first-child {
+    flex-grow: 2;
+  }
+
+  .about-us .row-1 .col:first-child p {
+    padding-right: 80px;
+  }
+
+  /* GET STARTED */
+
+  .get-started .container {
+    max-width: 55%;
+  }
+
+  /* FOOTER */
+
+  footer .container {
+    max-width: 55%;
+  }
+
+}
+
+/* DESKTOP */
+
+@media (min-width: 1920px){
+
+  .container {
+    width: 1920px;
+    max-width: 70%;
+  }
+
+  /* HEADER */
+
+  nav .hamburger-menu {
+    display: none;
+  }
+
+  nav .menu {
+    display: flex;
+
+  }
+
+  nav .menu li a {
+    text-decoration: none;
+    color: white;
+    padding: 0 10px;
+  }
+
+  nav .menu .btn {
+    color: black;
+    background-color: white;
+    padding: 8px 15px;
+    border-radius: 9999px;
+  }
+
+  /* PLANNING */
+
+  .planning {
+    padding: 70px 0;
+  }
+
+  .planning .row-2 {
+    display: flex;
+  }
+
+  .planning .container {
+    width: 60%;
+  }
+
+  .planning .row-2 .col:first-child {
+    padding: 0 25px;
+  }
+
+  .planning .row-2 .col:nth-child(2) {
+    align-self: flex-end;
+  }
+
+
+  /* TESTIMONIALS */
+
+  .testimonials .row-1 .col p {
+    text-align: left;
+  }
+
+  .testimonials.container {
+    max-width: 1920px;
+  }
+
+
+  /* BENEFITS */
+
+  .benefits .col {
+    width: calc((100% / 3) - 25px);
+    margin-bottom: 0;
+  }
 }
