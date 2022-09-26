@@ -81,6 +81,7 @@ nav {
   border-radius: 20px;
   margin-bottom: 20px;
   text-align: center;
+  width: 100%;
 }
 
 .features .btn {
@@ -300,7 +301,7 @@ nav {
   margin-bottom: 30px;
 }
 
-.fa-quote-left {
+.about-us .fa-quote-left {
   font-size: 4rem;
   color: #9792e4;
   position: absolute;
@@ -422,3 +423,76 @@ footer p:last-of-type a{
 
 
 
+/* RESPONSIVE-TABLET */
+
+@media (min-width: 810px) {
+  
+
+  /* FEATURES */
+
+  .container {
+    width: 810px;
+    max-width: 90%;
+  }
+
+  .features {
+    padding: 50px 0;
+  }
+
+  .features .row-1, .features .row-2 {
+    display: flex;
+    gap: 25px;
+  }
+
+
+  .features .row-1 .col {
+    width: calc(100% / 3);
+  }
+
+  .features .row-1 .col:first-child {
+    flex-grow: 2;
+  }
+
+
+  /* TESTIMONIALS */
+
+  .testimonials .col {
+    display: flex;
+    align-items: center;
+    padding: 30px 15px;
+  }
+
+  .testimonials .testimonials-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    padding: 0 20px;
+  }
+
+  /* BENEFITS */
+
+  .benefits {
+    padding: 60px 0;
+  }
+
+  .benefits h3 {
+    font-size: 2.4rem;
+  }
+
+  .benefits .col {
+    width: calc(50% - 25px);
+    margin-bottom: 0;
+  }
+
+  .benefits .row-2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 25px;
+  }
+
+  /* ABOUT US */
+
+  
+}
