@@ -340,6 +340,61 @@ nav {
 
 .get-started, .get-started .col {
   background-color: #9792e4;
+  text-align: center;
+}
+
+.get-started {
+  padding: 50px 0;
+}
+
+.get-started .col h5 {
+  font-size: 1.2rem;
+  color: #cbcaf1;
+  margin-bottom: 25px;
+}
+
+.get-started .col h3 {
+  font-size: 1.8rem;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.get-started .col h2 {
+  color: #fdc15f;
+  font-size: 3.5rem;
+  margin-bottom: 20px;
+}
+
+.get-started .col p {
+  color: white;
+  margin-bottom: 45px;
+}
+
+.get-started .col .btn-white {
+  background-color: white;
+  padding: 15px 85px;
+  border-radius: 99999px;
+}
+
+.btn-white a {
+  text-decoration: none;
+  color: #9792e4;
+}
+
+.copyright {
+  display: block;
+  margin-top: 40px;
+  color: white;
+}
+
+.copyright a {
+  color: white;
+}
+
+.copyright .fa-circle {
+  font-size: .3rem;
+  vertical-align: middle;
+  padding: 0 5px;
 }
 
 /* FOOTER  */
