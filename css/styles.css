@@ -216,28 +216,58 @@ nav {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* BENEFITS SECTION */
 
 .benefits {
   background-color: #9792e4;
+  padding: 50px 0;
 }
 
 .benefits .col {
   background-color: white;
+  margin-bottom: 25px;
+  padding: 35px 25px;
+  border-radius: 15px;
 }
+
+.benefits h3 {
+  color: white;
+  font-size: 2rem;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.benefits .col h2 {
+  font-size: 3rem;
+}
+
+.benefits .col h4 {
+  font-size: 1.8rem;
+}
+
+.benefits .col h2, .benefits .col h4 {
+  color:#9792e4;
+  margin-bottom: 20px;
+}
+
+.benefits .col p {
+  margin-bottom: 25px;
+  color: #969696;
+}
+
+.benefits .col .btn {
+  background-color: #9792e4;
+  padding: 8px 45px;
+  border-radius: 99999px;
+}
+
+.benefits .col .btn a {
+  text-decoration: none;
+  color: white;
+}
+
+
+
 
 /* ABOUT US */
 
