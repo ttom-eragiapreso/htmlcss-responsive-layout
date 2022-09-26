@@ -275,6 +275,67 @@ nav {
   background-color: white;
 }
 
+.about-us {
+  padding: 50px 0;
+}
+
+.about-us h2 {
+  color: #9792e4;
+  font-size: 2.5rem;
+  margin-bottom: 25px;
+}
+
+.about-us p:nth-child(2) {
+  margin-bottom: 30px;
+}
+
+.about-us p:last-child {
+  margin-bottom: 30px;
+}
+
+
+.about-us .img-container {
+  position: relative;
+  display: inline-block;
+  margin-bottom: 30px;
+}
+
+.fa-quote-left {
+  font-size: 4rem;
+  color: #9792e4;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.about-us .col img {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+}
+
+.about-us .col h3 {
+  color: #9792e4;
+  font-size: 1.6rem;
+  margin-bottom: 25px;
+}
+
+.about-us .col .btn {
+  background-color: #9792e4;
+  padding: 10px 15px;
+  border-radius: 99999px;
+}
+
+.about-us .col .btn a {
+  color: white;
+  text-decoration: none;
+}
+
+.fa-linkedin {
+  padding-right: 10px;
+}
+
+
 /* GET STARTED */
 
 .get-started, .get-started .col {
