@@ -401,4 +401,24 @@ nav {
 
 footer {
   background-color: #333333;
+  color: white;
+  padding: 50px 0;
 }
+
+footer p {
+  text-align: center;
+  font-size: .9rem;
+}
+
+footer p:first-of-type {
+  margin-bottom: 45px;
+}
+
+footer p:last-of-type a{
+  color: #9792e4;
+}
+
+
+
+
+
