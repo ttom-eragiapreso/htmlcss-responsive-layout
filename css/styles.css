@@ -530,7 +530,7 @@ footer p:last-of-type a{
 
 /* DESKTOP */
 
-@media (min-width: 1920px){
+@media (min-width: 1100px){
 
   .container {
     width: 1920px;
